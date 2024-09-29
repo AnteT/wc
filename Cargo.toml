@@ -1,0 +1,15 @@
+[package]
+name = "wc"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "wclib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "wc"
+path = "src/main.rs"
+
+[dependencies]
+clap = "4.0"
